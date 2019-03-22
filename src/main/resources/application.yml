@@ -1,87 +1,48 @@
-wkda:
-  api.classifieds.import.properties:
+vehicle:
+  properties:
     gearTypes:
-      automatic: 1139
-      duplex: 1141
-      manual: 1138
-      semi-automatic: 1140
+      automatic: 31232
+      duplex: 56765
+      manual: 213213
+      semi-automatic: 87978
     bodyTypes:
-      bus: 1006
-      convertible: 1007
-      convertible-coupe: 1009
-      coupe: 1008
-      panel-van: 1019
-      pickup: 1027
-      roadster: 1030
-      sedan: 1025
-      station-wagon: 1033
-      suv: 1035
-      van: 1038
-      chassis-cab: 1010
-      panel-van-high: 1016
-      panel-van-high-long: 1015
-      panel-van-long: 1020
-      truck-with-box-body: 1022
-      platform-cab: 1029
-      curtain-sided-platform-cab: 10333
-      other-commercial: 1026
-      tipper: 1021
-      small-car: 8111
+      bus: 3424
+      convertible: 34
+      coupe: 7567
     fuelTypes:
-      compressed-natural-gas: 1042
-      diesel: 1040
-      electric: 1044
-      ethanol-e85: 1045
-      hydrogen: 1047
-      liquified-petroleum-gas: 1041
-      other: 1043
-      petrol: 1039
-      petrol-electric-hybrid: 1046
-      plug-in-hybrid: 1048
+      diesel: 5345
+      electric: 213
+      petrol: 6765
     wheelPlacement:
       front-left: fwl
       front-right: fwr
       rear-left: bwl
       rear-right: bwr
     rimTypes:
-      aluminium-original: 2200
-      aluminium-supplier: 2201
-      steel: 2202
+      original: 3123
+      supplier: 657
     tyreTypes:
-      none: 2206
-      all-season: 2207
-      summer: 2205
-      winter: 2204
+      all-season: 564
+      summer: 432
+      winter: 85677
     colors:
-      beige: 1067
-      black: 1059
-      blue: 1065
-      brown: 1063
-      bronze: 1075
-      gold: 1071
-      green: 1066
-      gray: 1060
-      orange: 1069
-      red: 1064
-      silver: 1062
-      white: 1061
-      yellow: 1068
-      violet: 1070
+      beige: 323
+      black: 8797
+      blue: 23423
+      brown: 546
+      bronze: 35
+      gold: 234
+      green: 675
+      gray: 24e2
     upholestryTypes:
-      alcantara: 1058
-      cloth: 1055
-      leather: 1056
-      part-leather: 1057
-      synthetic-leather: 8101
-      plastic: 8102
-      velour: 8103
-      other: 8104
+      cloth: 213
+      leather: 978
 
-  orika:
-    enabled: true
-    useBuiltinConverters: true
-    useAutoMapping: true
-    mapNulls: true
-    dumpStateOnException: true
-    favorExtension: true
-    captureFieldContext: true
+orika:
+  enabled: true
+  useBuiltinConverters: true
+  useAutoMapping: true
+  mapNulls: true
+  dumpStateOnException: true
+  favorExtension: true
+  captureFieldContext: true
